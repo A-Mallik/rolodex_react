@@ -12,14 +12,18 @@ this.state={
     characters: [ ],
     searchField: ''
 };
+
+// this.handleChange = this.handleChange.bind(this);
 }
 
 componentDidMount(){
     fetch('http://jsonplaceholder.typicode.com/users')
     .then(response =>   
-        // console.log(response)
+       
         response.json() //returns data in a readable json format.
         )
+
+      
     .then(users =>  // then we take that json data and put it in our setState.
         this.setState({characters: users })
         // console.log(users)
@@ -39,11 +43,14 @@ render(){
 
     return(
         <div className="test">
-          
+           <h1>Monsters Rolodex</h1>
 
             <SearchBox
             placeholder='Search Character'
-            handleChange = { e => this.setState({searchField: e.target.value})}
+            handleChange = { e => 
+                this.setState({searchField: e.target.value})
+            }
+            //arrow functions automatically allows us to set 'this' when used and automatically bind 'this' to where the arrow function is used.
             />
             {/* //setState is a asynchronous function
             // this is why we are passing a callback function to see the immediate changes. */}
