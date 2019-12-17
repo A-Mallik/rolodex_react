@@ -17,7 +17,7 @@ this.state={
 }
 
 componentDidMount(){
-    fetch('http://jsonplaceholder.typicode.com/users')
+    fetch('https://jsonplaceholder.typicode.com/users')
     .then(response =>   
        
         response.json() //returns data in a readable json format.
