@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/rolodex_react/static/css/main.ebd1d073.chunk.css",
-    "main.js": "/rolodex_react/static/js/main.4ea2c43d.chunk.js",
-    "main.js.map": "/rolodex_react/static/js/main.4ea2c43d.chunk.js.map",
+    "main.js": "/rolodex_react/static/js/main.995ad813.chunk.js",
+    "main.js.map": "/rolodex_react/static/js/main.995ad813.chunk.js.map",
     "runtime-main.js": "/rolodex_react/static/js/runtime-main.783e90a9.js",
     "runtime-main.js.map": "/rolodex_react/static/js/runtime-main.783e90a9.js.map",
     "static/js/2.626dfc30.chunk.js": "/rolodex_react/static/js/2.626dfc30.chunk.js",
     "static/js/2.626dfc30.chunk.js.map": "/rolodex_react/static/js/2.626dfc30.chunk.js.map",
     "index.html": "/rolodex_react/index.html",
-    "precache-manifest.b74e0c3200ccba489268d8d0a2062a0b.js": "/rolodex_react/precache-manifest.b74e0c3200ccba489268d8d0a2062a0b.js",
+    "precache-manifest.ccbc97cc2e757f0ef87d4c1c3e2714d7.js": "/rolodex_react/precache-manifest.ccbc97cc2e757f0ef87d4c1c3e2714d7.js",
     "service-worker.js": "/rolodex_react/service-worker.js",
     "static/css/main.ebd1d073.chunk.css.map": "/rolodex_react/static/css/main.ebd1d073.chunk.css.map",
     "static/media/logo.svg": "/rolodex_react/static/media/logo.25bf045c.svg"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.783e90a9.js",
     "static/js/2.626dfc30.chunk.js",
     "static/css/main.ebd1d073.chunk.css",
-    "static/js/main.4ea2c43d.chunk.js"
+    "static/js/main.995ad813.chunk.js"
   ]
 }
