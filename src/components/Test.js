@@ -43,7 +43,7 @@ render(){
 
     return(
         <div className="test">
-           <h1>Monsters Rolodex</h1>
+           <h1>Monsters Rolodex App (React)</h1>
 
             <SearchBox
             placeholder='Search Character'
